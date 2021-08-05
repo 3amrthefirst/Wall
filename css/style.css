@@ -327,7 +327,7 @@ opacity: 0;
 }
 .carousel-caption2{
     position: absolute;
-    top: 76%;
+    top: 80%;
     left: 50%;
-    transform: translate(-50%,-76%);
+    transform: translate(-50%,-80%);
 }
