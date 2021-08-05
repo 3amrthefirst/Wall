@@ -300,4 +300,34 @@ opacity: 0;
     color: #FFD3AD;
     opacity: 1 !important;
 }
- /* our services page end */ 
+ /* our services page end */
+ 
+ 
+ /* slider page start */ 
+ .slider-body{
+     margin: 0;
+     padding: 0;
+     line-height: 0%;
+     overflow: hidden;
+ }
+.carousel-caption h1{
+    font-size: 50px;
+    color: #ffffff;
+    font-weight: bolder;
+}
+.carousel-caption1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.img{
+    min-height: 100vh;
+}
+.carousel-caption2{
+    position: absolute;
+    top: 76%;
+    left: 50%;
+    transform: translate(-50%,-76%);
+}
