@@ -1,0 +1,303 @@
+/*-----------------------------------------------------------
+* Project Name     : new wal website
+* Author           : amr nasser
+* Version          : 1.0.0 Arabic
+* Created          : july 2021
+* File Description : Main css file of this Project
+*------------------------------------------------------------
+colors : ##3D3D3D , ##C59D79
+*/
+/* body start */ 
+body {
+    font-family     : 'Cairo', sans-serif;
+    font-size       : 16px;
+    font-weight     : 400;
+    overflow-x      : hidden;
+    background-color: #ffffff;
+    line-height     : 1.5;
+    direction       : rtl;
+}
+/* body end */
+
+
+/* static style start */ 
+
+
+/* colors start */
+.black{
+    color: #3D3D3D;
+}
+.bayj{
+    color: #C59D79;
+}
+/* colors end */
+
+/* padding start */
+.padding-top{
+    padding-top: 75px;
+}
+.padding-bottom{
+    padding-bottom:75px
+}
+.padding-left{
+    padding-left: 5%;
+}
+.padding-right{
+    padding-right: 5%;
+}
+/* padding end */
+
+/* static style end */ 
+
+/* layouts style */
+
+/* nav bar start */
+
+/* bar margin */
+.navbar{
+    background-color: #3D3D3D;
+    box-shadow: 0px 5px 5px 1px rgba(255,211,173,0.63);
+    -webkit-box-shadow: 0px 5px 5px 1px rgba(255,211,173,0.63);
+    -moz-box-shadow: 0px 5px 5px 1px rgba(255,211,173,0.63);
+}
+.navbar-expand-lg .navbar-nav{
+    margin-left: 35%;
+}
+/* active link */
+.navbar-dark .navbar-nav .nav-link.active{
+    color: #FFD3AD;
+}
+.navbar-dark .navbar-nav .nav-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 5px;
+    background: #FFD3AD;
+    transition: width .3s;
+    transform: translate(0, 15px);
+}
+/* nav bar brand */
+.navbar-brand{
+    transform: translate(-150%, 0%);
+   
+}
+
+.navbar-dark .navbar-nav .nav-link:hover::after,.navbar-dark .navbar-nav .nav-link.active::after{
+    width: 100%;
+    transition: width .3s;
+    color: #FFD3AD;
+}
+
+/* nav link */
+.navbar-dark .navbar-nav .nav-link{
+    color: #FFD3AD;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: #FFD3AD;
+}
+
+/* nav bar end */
+
+/* footer start */
+footer{
+    background-color: #171717;
+}
+footer a{
+    text-decoration: none;
+    color: #C7C7C7;
+    font-size: 15px;
+    padding-left: 15%;
+    padding-top: 25px;
+}
+footer a:hover{
+    color: #FFD3AD;
+    transition: all .5s ease;
+}
+.afooter2{
+    padding-top: 15px;
+}
+.border-b::after{
+    content: '';
+    display: block;
+    width: 200%;
+    height: 5px;
+    background: #FFD3AD;
+    transition: width .3s;
+    transform: translate(0,60px);
+    margin-right: -100%;
+}
+/* footer end */
+/* index page start */
+/* about us home start  */
+
+.aboutus-home{
+    margin-top: 15px;
+}
+.aboutus1{
+    margin-top: 90px;
+    margin-right: 35%;
+
+}
+.aboutus2{
+    width: 65%;
+    margin-top: -400px;
+    transform: translate(-70%, 0)
+}
+.aboutus3{
+    width: 40%;
+    height: 200px;
+    margin-top: -175px;
+    transform: translate(-50%, 0)
+}
+/* about us home end */
+/* vision home  */
+.vision-home{
+    margin-top: 15px;
+}
+.vision1{
+    margin-top: 90px;
+    margin-right: 27%;
+
+}
+.vision2{
+    width: 65%;
+    margin-top: -400px;
+    transform: translate(1%, 0)
+}
+.vision3{
+    width: 40%;
+    height: 200px;
+    margin-top: -175px;
+    transform: translate(-120%, 0)
+}
+/* index page end */
+
+
+/* about us page start */
+.logo-aboutus{
+    width: 100%;
+    height: 150px;
+}
+/* about us page end 
+
+/*contact-us page start */
+.contact-us{
+    background-image: url(../img/contact-us/background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 350px;
+}
+.contact-us h2{
+    color: #ffffff;
+    font-weight: bolder;
+    padding-right: 10%;
+}
+.form-map{
+    margin-top: -200px;
+    box-shadow: 1px 1px 5px 4px rgba(50,94,77,0.49);
+-webkit-box-shadow: 1px 1px 5px 4px rgba(50,94,77,0.49);
+-moz-box-shadow: 1px 1px 5px 4px rgba(50,94,77,0.49);
+padding: 0%;
+background-color: #ffffff;
+height: 550px;
+}
+.map{
+ 
+    padding: 0%;
+    height: 550px;
+}
+.form{
+    width: 100%;
+    padding-top: 25px;
+    
+}
+.form-control{
+    border: 3px solid #10251C;
+    padding-bottom: 25px;
+    margin-top: 35px;
+    width: 80%;
+    margin-right: 10%;
+
+}
+.form-control::placeholder{
+    color: #FFD3AD;
+}
+.form-control:focus{
+    border: 3px solid #10251C;
+        box-shadow : none !important;
+}
+
+textarea{
+    resize: none;
+}
+.btn-primary{
+    background-color: #325E4D;
+    margin-top: 15px;
+    width: 80%;
+    margin-right: 10%;
+    color: #FFD3AD;
+    border: none;
+}
+.btn-primary:hover{
+background-color: #C59D79;
+border: none;
+}
+.btn:focus{
+    box-shadow : none !important;
+}
+.social a{
+text-decoration: none;
+color: #325E4D;
+margin-left: 2%;
+}
+.f-awesome{
+    font-size: 20px;
+    color: #325E4D;
+}
+.f-awesome:hover{
+    padding-bottom: 2px;
+    transition: .5 all ease;
+}
+.social a:hover{
+    color: #C59D79;
+  
+}
+.space{
+    padding-top: 25px;
+}
+.form-map p{
+    font-size: 20px;
+    font-weight: bold;
+    color: #363636;
+}
+
+ /* contact us page end */
+
+ /* our services page start */
+.f1st{
+    background-image: url(../img/services/florida.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+.s2nd{
+    background-image: url(../img/services/nile.jpeg);
+    background-size: contain;
+    height: 300px;
+}
+.rec{
+  opacity: .5;
+  background-color: #C7C7C7;
+  height: 300px;
+}
+
+.rec:hover{
+opacity: 0;  
+  transition: .5 all ease;
+}
+.rec h2{
+    color: #FFD3AD;
+    opacity: 1 !important;
+}
+ /* our services page end */ 
