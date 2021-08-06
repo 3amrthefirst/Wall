@@ -22,6 +22,21 @@
 
 </head>
 <body class="slider-body">
+        <!-- preloder -->
+        <!-- loading page animation
+        *abdelhamed
+        -->
+        <div class="anbody loder-bg">
+            <img src="./img/slider/5.jpeg" class="loadingImg">
+                <div class="text-center loader">
+                    <div class="spinner-border" role="status">
+                      <span class="visually-hidden">Loading...</span>
+                    </div>
+                  </div>
+        </div>
+
+        <!-- preloder end -->
+
     <header class="slider-header">
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
@@ -94,8 +109,15 @@
     </header>
       
 
-
-
+            <!-- jquery library -->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+            <!-- pre loder time -->
+            <script>
+                setTimeout(function(){
+            $('.loder-bg').fadeToggle();
+            }, 3600
+            );
+            </script>
             <!-- bootstrab min js -->
             <script src="./js/all.min.js"></script>
             <!-- bootstrab -->

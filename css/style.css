@@ -178,6 +178,10 @@ footer a:hover{
     width: 100%;
     height: 150px;
 }
+.logo-aboutus-img{
+    width: 75%;
+    height: 100px;
+}
 /* about us page end 
 
 /*contact-us page start */
@@ -196,11 +200,11 @@ footer a:hover{
 .form-map{
     margin-top: -200px;
     box-shadow: 1px 1px 5px 4px rgba(50,94,77,0.49);
--webkit-box-shadow: 1px 1px 5px 4px rgba(50,94,77,0.49);
--moz-box-shadow: 1px 1px 5px 4px rgba(50,94,77,0.49);
-padding: 0%;
-background-color: #ffffff;
-height: 550px;
+    -webkit-box-shadow: 1px 1px 5px 4px rgba(50,94,77,0.49);
+    -moz-box-shadow: 1px 1px 5px 4px rgba(50,94,77,0.49);
+    padding: 0%;
+    background-color: #ffffff;
+    min-height: 100vh;
 }
 .map{
  
@@ -272,6 +276,7 @@ margin-left: 2%;
     color: #363636;
 }
 
+
  /* contact us page end */
 
  /* our services page start */
@@ -330,4 +335,309 @@ opacity: 0;
     top: 80%;
     left: 50%;
     transform: translate(-50%,-80%);
+}
+/* loder style */
+/* loading1 */
+
+
+.loadingImg{
+    width: 100%;
+    position: relative;
+}
+
+.loader{
+   position: absolute;
+   top: 53%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   color:white;
+
+}
+/* loader style end */
+
+/* media query */
+@media (max-width:1024px) and (min-width:769px){
+    /* index page */
+    .aboutus2{
+        transform: translate(-69%,0);
+    }
+    .navbar-brand{
+        transform: translate(-40%,0);
+    }
+    /* index page end */
+}
+@media (max-width:768px) and (min-width:426px){
+    /* index page */
+    .aboutus2 {
+        width: 60%;
+        margin-top: -400px;
+        transform: translate(-70%, 0);
+    }
+    .aboutus1 {
+        margin-top: 90px;
+        margin-right: 28%;
+    }
+    .navbar-brand{
+        transform: translate(0,0);
+    }
+    .vision2{
+        width: 60%;
+    }
+    footer a img{
+        height: 65% !important;
+        transform: translate(-50%,0);
+    }
+    .border-b::after {
+        content: '';
+        display: block;
+        width: 50%;
+        height: 5px;
+        background: #FFD3AD;
+        transition: width .3s;
+        transform: translate(0,60px);
+        margin-right: 26%;
+    }
+    /* index page end */
+    .navbar-dark .navbar-nav .nav-link:hover::after,.navbar-dark .navbar-nav .nav-link.active::after{
+        width: 30%;
+        
+    }
+    /* contact us */ 
+    .form-map{
+        margin-top: -200px;
+
+        
+    }
+
+}
+@media (max-width:425px) and (min-width:376px){
+    .navbar-brand{
+        transform: translate(0,0);
+    }
+   
+    .aboutus-home{
+        margin-bottom: 80%;
+    }
+    .vision-pic-home{
+        margin-top: 75%;
+        margin-bottom: -15%;
+    }
+    .our-new{
+        padding: 0%;
+    }
+    .aboutus3 {
+        width: 40%;
+        height: 176px;
+        margin-top: -313px;
+        transform: translate(-40%, 0);}
+        .aboutus2{
+            width: 60%;
+            transform: translate(-55%, 0);
+        }
+        .vision2 {
+            width: 60%;
+            margin-top: -315px;
+            transform: translate(-24%, 0);
+        }
+        .vision3 {
+            width: 41%;
+            height: 185px;
+            margin-top: -207px;
+            transform: translate(-125%, 0);
+        }
+        footer a img{
+            height: 65% !important;
+            transform: translate(-50%,0);
+        }
+        .border-b::after {
+            content: '';
+            display: block;
+            width: 50%;
+            height: 5px;
+            background: #FFD3AD;
+            transition: width .3s;
+            transform: translate(0,60px);
+            margin-right: 26%;
+        }
+        .navbar-dark .navbar-nav .nav-link.active,  .nav-link {
+            
+            font-size: 20px;
+        }
+        .navbar-dark .navbar-nav .nav-link::after { 
+            height: 3px;
+            transform: translate(0, 6px);
+        }
+        .navbar-dark .navbar-nav .nav-link:hover::after,.navbar-dark .navbar-nav .nav-link.active::after{
+            width: 70%;
+            
+        }
+        /* about us */
+          .logo-aboutus-img{
+            padding-bottom: 25px;
+        }
+        /* contact us */
+        .contact{
+            margin: 3%;
+        }
+        .form-control::placeholder{
+            font-size: 75%;
+        }
+}
+@media (max-width:375px) and (min-width:321px){
+    .navbar-brand{
+        transform: translate(0,0);
+    }
+   
+    .aboutus-home{
+        margin-bottom: 80%;
+    }
+    .vision-pic-home{
+        margin-top: 75%;
+        margin-bottom: -15%;
+    }
+    .our-new{
+        padding: 0%;
+    }
+    .aboutus3 {
+        width: 40%;
+        height: 176px;
+        margin-top: -313px;
+        transform: translate(-40%, 0);}
+        .aboutus2{
+            width: 60%;
+            transform: translate(-55%, 0);
+        }
+        .vision2 {
+            width: 60%;
+            margin-top: -315px;
+            transform: translate(-24%, 0);
+        }
+        .vision3 {
+            width: 41%;
+            height: 185px;
+            margin-top: -207px;
+            transform: translate(-125%, 0);
+        }
+        footer a img{
+            height: 65% !important;
+            transform: translate(-50%,0);
+        }
+        .border-b::after {
+            content: '';
+            display: block;
+            width: 50%;
+            height: 5px;
+            background: #FFD3AD;
+            transition: width .3s;
+            transform: translate(0,60px);
+            margin-right: 26%;
+        }
+        .navbar-dark .navbar-nav .nav-link.active,  .nav-link {
+            
+            font-size: 15px;
+        }
+        .navbar-dark .navbar-nav .nav-link::after { 
+            height: 3px;
+            transform: translate(0, 6px);
+        }
+        .navbar-dark .navbar-nav .nav-link:hover::after,.navbar-dark .navbar-nav .nav-link.active::after{
+            width: 65%;
+            
+        }
+          /* about us */
+          .logo-aboutus-img{
+            padding-bottom: 25px;
+        }
+        /* contact us */
+        .contact{
+            margin: 5%;
+        }
+        .form-control::placeholder{
+            font-size: 75%;
+        }
+
+}
+@media (max-width:320px){
+    .navbar-brand{
+        transform: translate(0,0);
+    }
+   
+    .aboutus-home{
+        margin-bottom: 100%;
+        margin-top: -20%;
+    }
+    .vision-pic-home{
+        margin-top: 75%;
+        margin-bottom: -15%;
+    }
+    .our-new{
+        padding: 0%;
+    }
+    .aboutus3 {
+        width: 40%;
+        height: 176px;
+        margin-top: -313px;
+        transform: translate(-40%, 0);}
+        .aboutus2{
+            width: 60%;
+            transform: translate(-55%, 0);
+        }
+        .vision2 {
+            width: 60%;
+            margin-top: -315px;
+            transform: translate(-24%, 0);
+        }
+        .vision3 {
+            width: 41%;
+            height: 185px;
+            margin-top: -207px;
+            transform: translate(-125%, 0);
+        }
+        footer a img{
+            height: 65% !important;
+            transform: translate(-50%,0);
+        }
+        .border-b::after {
+            content: '';
+            display: block;
+            width: 50%;
+            height: 5px;
+            background: #FFD3AD;
+            transition: width .3s;
+            transform: translate(0,60px);
+            margin-right: 23%;
+        }
+        footer a{
+            padding-left: 10%;
+        }
+        .navbar-dark .navbar-nav .nav-link.active,  .nav-link {
+            
+            font-size: 13px;
+        }
+        .navbar-dark .navbar-nav .nav-link::after { 
+            height: 3px;
+            transform: translate(0, 6px);
+        }
+        .navbar-dark .navbar-nav .nav-link:hover::after,.navbar-dark .navbar-nav .nav-link.active::after{
+            width: 65%;
+            
+        }
+  /* about us */
+  .logo-aboutus-img{
+    padding-bottom: 25px;
+}
+/* contact us */
+.contact{
+    margin: 5%;
+}
+.form-control::placeholder{
+    font-size: 75%;
+}
+}
+
+/* hnksha */
+@media (max-width:992px) and (min-width:768px){
+    .info div p{
+        font-size: 15px;
+    }
 }
