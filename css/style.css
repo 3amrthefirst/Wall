@@ -96,6 +96,19 @@ body {
     color: #FFD3AD;
 }
 
+/* navbar edite *abdelhamed*/
+.w-25 {
+    width: 37%!important;
+}
+
+
+.navbar-dark .navbar-nav .nav-link::after {
+
+    transform: translate(0, 23px);
+}
+
+
+
 /* nav bar end */
 
 /* footer start */
@@ -126,6 +139,34 @@ footer a:hover{
     transform: translate(0,60px);
     margin-right: -100%;
 }
+
+
+/* footer edite *abdelhamed*/
+
+.w-50 {
+    margin-right: 41%;
+    margin-top: -4%;
+}
+
+.im {
+    margin-right: 0%;
+}
+
+
+.border-b::after {
+    width: 125%;
+    height: 5px;
+    margin-right: -67%;
+}
+
+
+footer a {
+   
+  
+    padding-left: 16%;
+    
+}
+
 /* footer end */
 /* index page start */
 /* about us home start  */
